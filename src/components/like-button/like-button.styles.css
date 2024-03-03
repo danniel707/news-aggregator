@@ -1,0 +1,21 @@
+
+.like-container {
+  margin-left: 3em;
+  margin-right: 1.5em;
+}
+
+.like-container span {
+  margin-left: 0.3em;
+}
+
+.like-button {
+  font-size: 1.3em;
+  color: #626262;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.like-button.liked {
+  color: var(--theme-on-hover); 
+}

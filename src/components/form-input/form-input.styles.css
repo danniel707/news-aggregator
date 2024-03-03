@@ -1,0 +1,32 @@
+.form {
+  position: relative;
+  margin: 1.5em 0em;
+}
+
+.form-fields {
+  background: none;
+  background-color: white;
+  color: black;
+  font-size: 1em;  
+  display: block;
+  width: 100%;
+  padding: 0.3em;
+  border-radius: 5px;  
+  margin: 0.2em 0;
+}
+
+.form-fields:focus {
+  border: 3px solid black;
+}
+
+input[type='password'] {
+  letter-spacing: 0.3em;
+}
+
+.form-labels {  
+  color: var(--theme-color);
+  font-size: 1.1em;
+  font-weight: normal; 
+  pointer-events: none;
+  left: 5px; 
+}

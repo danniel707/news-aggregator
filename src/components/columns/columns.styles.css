@@ -1,0 +1,20 @@
+
+.columns-container {
+  display: flex;
+  justify-content: space-between;  
+  margin: 0 4.1em;  
+}
+
+.left-column-container {  
+  width: 30em;
+  margin-right: 5em;  
+  border-top: 1px solid #CFCFCF;
+ }
+
+
+.right-column-container {  
+  margin-left: 5em; 
+  width: 40em;
+  border-top: 1px solid #CFCFCF;  
+  height: auto;
+}

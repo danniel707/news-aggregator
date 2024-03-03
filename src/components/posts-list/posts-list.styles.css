@@ -1,0 +1,36 @@
+
+.posts-list-column {
+  display: flex;
+  flex-direction: column;
+  background: #fff;  
+  max-width: 100%;
+  height: auto;      
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;  
+  transition: 0.3s;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5em;  
+}
+
+/* Style for each pagination number */
+.pagination button {
+  margin: 0 8px;  
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style for the active pagination number */
+.pagination button.active {
+  background-color: var(--theme-color);
+  color: #fff;
+}

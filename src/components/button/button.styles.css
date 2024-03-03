@@ -1,0 +1,88 @@
+.button-container {
+  width: 45%;
+  letter-spacing: 0.5px;
+  line-height: 3.2em; 
+  font-size: 14px;
+  background-color: var(--theme-color);  
+  color: white;  
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.button-container:hover {
+  background-color: var(--theme-on-hover);  
+}
+
+.google-sign-in {
+  background-color: #8349C5;
+  color: white;
+  padding: 0em 0.5em;
+}
+
+.google-sign-in:hover {
+  background-color: #BA5EFF;
+  border: none;  
+}
+
+.create-post-open-modal {
+ width: 8%;
+ font-weight: normal; 
+ margin-bottom: 3em;
+ padding: 0em 0em;
+ text-transform: capitalize;
+}
+
+.create-post {  
+  width: 12%;
+  font-weight: normal;  
+  line-height: 2.5em; 
+  text-transform: capitalize; 
+}
+
+.send-comment {
+  width: 12%;
+  font-weight: normal;  
+  line-height: 2.5em; 
+  text-transform: capitalize; 
+}
+
+.delete-post {  
+  background-color: #D70022;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-comment {  
+  background-color: #D70022;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  text-transform: lowercase; 
+}
+
+.delete-post:hover, .delete-comment:hover {
+  background-color: red;
+}
+
+.inverted {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.inverted:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+

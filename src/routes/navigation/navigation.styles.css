@@ -1,0 +1,66 @@
+
+.logo {
+  font-size: 0.1em;
+  color: #76A0FF;
+}
+ 
+.navigation-container {   
+  display: flex;       
+  align-items: center;  
+  text-align: center;  
+  margin-top: 5em;  
+  margin-bottom: 5em;
+  justify-content: space-between; 
+  background: radial-gradient(circle, rgba(73,111,197,1) 27%, rgba(115,158,255,1) 100%);
+  width: 100%;  
+}
+
+.nav-link {
+  text-decoration: none;  
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; 
+  cursor: pointer;
+
+} 
+
+.title {
+  margin-left: 1.2em;
+  font-size: 3.0em;
+  font-family: 'Playfair Display', sans-serif; 
+  font-weight: bold; 
+  color: #EFEFEF;  
+}
+
+.nav-right-side {
+  font-size: 1em;   
+  margin-right: 2em;
+  color: var(--second-color);  
+  padding: 0.3em;
+  border: 2px solid var(--second-color);
+  border-radius: 15px;
+  background-color: white;
+}
+
+.nav-right-side:hover {
+  border: 2px solid var(--second-hover);
+  color: #00BC2F;
+}
+
+.name-sign-out-container {
+  display: flex; 
+  align-items: center;  
+}
+
+.name-sign-out-container p {
+  background-color: white;
+  padding: 0.4em 0.6em;
+  color: var(--second-color);
+  border-radius: 15px;  
+  margin-right: 0em;
+}
+
+.sign-out {
+  margin-left: 0.4em;
+  margin-top: 0.5em; 
+  margin-bottom: 0.5em; 
+}

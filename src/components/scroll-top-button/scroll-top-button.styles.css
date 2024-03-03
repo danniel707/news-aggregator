@@ -1,0 +1,26 @@
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 2em;
+  right: 6em;
+  background-color: var(--theme-color);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 2em;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.scroll-top-button.visible {
+  display: flex;
+}
+
+.scroll-top-button:hover {
+  background-color: var(--theme-on-hover);
+}

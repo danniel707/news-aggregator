@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Garamond';
+  src: url('./styles/fonts/EBGaramond-VariableFont_wght.ttf') format('ttf');
+
+}
+
+:root {
+  --theme-color: #496FC5;
+  --theme-on-hover: #5E8FFF;
+  --second-color: #00771E;
+  --second-hover: #00BC2F;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', sans-serif;
+  padding: 0;  
+}
+
+
+/* Style for the modal overlay */
+.ReactModal__Overlay {
+  /* Semi-transparent black background */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the modal content */
+.ReactModal__Content {
+  /* Width of the modal */
+  width: 50%;
+  /* Center the modal horizontally */
+  margin: auto;
+  /* Limit the maximum height of the modal */
+  max-height: 67%;
+  /* Enable vertical scrolling if content exceeds the available height */
+  overflow-y: auto;
+  /* Border properties */
+  border: 0px solid green;
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  /* Transition properties for smooth appearance */
+  transition: transform 0.4s ease-out;
+  transform: translateY(100%);
+}
+
+/* Style for the modal content when it is open */
+.ReactModal__Content--after-open {
+  transform: translateY(0); /* Move the modal to its original position */
+}
+
+/* Style for the modal content when it is closing */
+.ReactModal__Content--before-close {
+  transform: translateY(100%); /* Move the modal back to the bottom of the screen */
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 14px;
+  }
+  .footer-left {
+    padding-right: 5em;
+  }
+
+  .left-column-container {
+    
+  }  
+}
+
+@media screen and (max-width: 900px) {
+  .news-grid {
+    
+  }
+}
+
+

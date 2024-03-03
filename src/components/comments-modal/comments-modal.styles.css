@@ -1,0 +1,30 @@
+
+.comments-modal{
+  margin: 1em 2em;
+}
+
+.comments-modal h2 {
+  color: var(--theme-color);
+  font-size: 1.1em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  text-align: center;  
+}
+
+.comments-modal label {
+  font-size: 1em;  
+}
+
+.comments-modal textarea {
+  margin-top: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.comment-button-container {  
+  margin-bottom: 5em;
+}
+
+.comment-button-container button{
+  margin-right: 0em;
+  float: right;
+}
