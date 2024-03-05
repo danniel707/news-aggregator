@@ -69,8 +69,12 @@ body {
   }
 
   .left-column-container {
-    
+      display: none;
   }  
+
+  .right-column-container {  
+    display: none;
+  }
 }
 
 @media screen and (max-width: 900px) {

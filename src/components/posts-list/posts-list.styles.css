@@ -4,7 +4,8 @@
   flex-direction: column;
   background: #fff;  
   max-width: 100%;
-  height: auto;      
+  height: auto;   
+  min-height: 800px;   
   overflow: hidden;
   text-decoration: none;
   color: #000;  
